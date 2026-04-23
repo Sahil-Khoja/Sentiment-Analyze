@@ -1,0 +1,106 @@
+[
+  {
+    "brand": "Adidas",
+    "reviews": [
+      "These shoes are absolutely amazing and so comfortable, I love them!",
+      "Great quality and very stylish design, best purchase I have made this year.",
+      "Not good at all, the sole came apart after just two weeks of use.",
+      "The fit is excellent and the material feels premium, highly recommend.",
+      "Worst experience ever, poor stitching and the shoes look cheap.",
+      "Decent shoes but not worth the high price they charge for this brand.",
+      "I love the stylish look but the comfort is not great for long walks.",
+      "Good value for money, comfortable and durable for everyday use."
+    ]
+  },
+  {
+    "brand": "Zara",
+    "reviews": [
+      "Stylish clothes at reasonable prices, love the new collection this season.",
+      "The quality is poor and the fabric feels cheap for the price they charge.",
+      "Amazing designs and great fit, I always find something good here.",
+      "Worst customer service ever, they hate dealing with returns and complaints.",
+      "Not bad for fast fashion, the clothes look stylish and hold up well.",
+      "Expensive for what you get, the quality is disappointing every time.",
+      "Love the trendy styles but the sizing is not consistent across items.",
+      "Best fashion brand for affordable stylish clothing, excellent variety."
+    ]
+  },
+  {
+    "brand": "Dell",
+    "reviews": [
+      "Excellent laptop, fast performance and great battery life, love it.",
+      "Poor build quality, the hinge broke after six months of normal use.",
+      "Best laptop I have ever owned, comfortable keyboard and amazing display.",
+      "Not worth the price, there are better options available for less money.",
+      "Good performance for the price, reliable and stylish design overall.",
+      "Worst customer support experience, they disappoint every single time.",
+      "The laptop is good but not great, average performance for the cost.",
+      "Amazing value, excellent specs and comfortable to use for long hours."
+    ]
+  },
+  {
+    "brand": "Toyota Supra",
+    "reviews": [
+      "Amazing sports car, excellent handling and love the aggressive styling.",
+      "Expensive to maintain and the interior quality is not great for the price.",
+      "Best driving experience ever, the performance is absolutely excellent.",
+      "Not comfortable for long drives, the ride is too stiff and harsh.",
+      "Love the stylish exterior but the infotainment system is disappointing.",
+      "Great engine performance, good acceleration and excellent road grip.",
+      "Worst value for money, too expensive and not worth the premium price.",
+      "The car looks amazing and drives great, best sports car in its class."
+    ]
+  },
+  {
+    "brand": "iPhone",
+    "reviews": [
+      "Best smartphone ever made, excellent camera and love the smooth performance.",
+      "Too expensive for what you get, not worth the premium price at all.",
+      "Amazing build quality, stylish design and great user experience overall.",
+      "Poor battery life, the phone dies quickly and that is disappointing.",
+      "Love the camera quality, excellent photos and great video recording.",
+      "Not bad but not great either, the price is too high for these features.",
+      "Worst update ever, it made my phone slow and the battery life is bad.",
+      "Excellent phone, comfortable to hold and the display is absolutely amazing."
+    ]
+  },
+  {
+    "brand": "Lenskart",
+    "reviews": [
+      "Great selection of frames, stylish designs and good quality lenses.",
+      "The frames broke within a month, poor quality and disappointing service.",
+      "Love the home trial feature, excellent convenience and good prices.",
+      "Not worth the money, the lenses are not as good as they advertise.",
+      "Amazing customer service, they helped me find the best frames quickly.",
+      "Worst experience, the glasses arrived damaged and the support was poor.",
+      "Good variety of stylish frames, comfortable fit and excellent lens quality.",
+      "Expensive compared to local stores but the quality is not great either."
+    ]
+  },
+  {
+    "brand": "Lloyd",
+    "reviews": [
+      "Excellent air conditioner, cools the room quickly and very comfortable.",
+      "Poor cooling performance, the unit is not good for large rooms at all.",
+      "Love the energy efficient design, great performance and stylish look.",
+      "Worst after-sales service, they disappoint customers with slow repairs.",
+      "Good value for money, reliable cooling and excellent build quality.",
+      "Not worth buying, the compressor failed after just one summer season.",
+      "Amazing cooling power, best AC brand for Indian summers, love it.",
+      "The AC is good but the remote control quality is poor and disappointing."
+    ]
+  },
+  {
+    "brand": "Titan",
+    "reviews": [
+      "Best watch brand in India, excellent quality and love the stylish designs.",
+      "Not worth the price, the watch stopped working after just three months.",
+      "Amazing craftsmanship, comfortable to wear and great value for money.",
+      "Poor quality strap, it broke within weeks and the service was disappointing.",
+      "Love the elegant designs, excellent finishing and good water resistance.",
+      "Worst experience, the watch face cracked easily and support was bad.",
+      "Great collection of stylish watches, good quality and comfortable fit.",
+      "Excellent brand, best watches for the price, amazing durability overall."
+    ]
+  }
+]

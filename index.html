@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Brand Review Sentiment Analyzer</title>
+  <!-- Tailwind CSS via CDN for all layout and styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen font-sans">
+
+  <!-- ===== PAGE HEADER ===== -->
+  <header class="bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-600 text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+      <div>
+        <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">
+          🔍 Brand Review Sentiment Analyzer
+        </h1>
+        <p class="text-blue-100 text-sm mt-1">
+          Explore customer sentiment across top brands using client-side NLP
+        </p>
+      </div>
+
+      <!-- Upload area: button + hidden file input -->
+      <div id="upload-section" class="flex items-center gap-2">
+        <button
+          id="upload-btn"
+          class="flex items-center gap-2 bg-white text-blue-700 font-semibold px-4 py-2 rounded-lg shadow hover:bg-blue-50 transition duration-200 text-sm"
+          title="Upload a JSON, CSV, or TXT file with review data"
+        >
+          📂 Upload Reviews
+        </button>
+        <!-- Hidden file input; triggered by the button above -->
+        <input
+          type="file"
+          id="file-input"
+          accept=".json,.csv,.txt"
+          class="hidden"
+        />
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="max-w-7xl mx-auto px-4 py-6 space-y-6">
+
+    <!-- Brand Selector: one button per brand, wraps on small screens -->
+    <section class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 transition duration-200">
+      <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">
+        Select a Brand
+      </h2>
+      <!-- flex flex-wrap gap-2 ensures buttons reflow cleanly on all screen sizes -->
+      <div id="brand-selector" class="flex flex-wrap gap-2">
+        <!-- Brand buttons are injected here by script.js -->
+      </div>
+    </section>
+
+    <!-- Dashboard: aggregate sentiment stats for the active brand -->
+    <section aria-label="Sentiment statistics">
+      <div id="dashboard" class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <!-- Stat cards are injected here by script.js -->
+      </div>
+    </section>
+
+    <!-- Two-column layout: review cards + word frequency panel -->
+    <div class="flex flex-col lg:flex-row gap-6">
+
+      <!-- Left column: filter bar + review cards -->
+      <div class="flex-1 min-w-0 space-y-4">
+
+        <!-- Filter Bar -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 transition duration-200">
+          <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">
+            Filter by Sentiment
+          </h2>
+          <div id="filter-bar" class="flex flex-wrap gap-2">
+            <!-- Filter buttons are injected here by script.js -->
+          </div>
+        </div>
+
+        <!-- Review Cards Grid: 1 col mobile → 2 col sm → 3 col lg -->
+        <div id="review-cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <!-- Review cards are injected here by script.js -->
+        </div>
+
+      </div>
+
+      <!-- Right column: word frequency panel (sticky on large screens) -->
+      <aside class="w-full lg:w-72 xl:w-80 shrink-0" aria-label="Top words">
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sticky top-4 transition duration-200">
+          <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">
+            Top Words
+          </h2>
+          <div id="word-frequency">
+            <!-- Word frequency rows are injected here by script.js -->
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Error container: shown when data loading fails -->
+  <div id="error-container" class="max-w-7xl mx-auto px-4 py-2" role="alert" aria-live="polite"></div>
+
+  <!-- Toast container: positioned fixed at bottom-right -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 flex flex-col gap-2 pointer-events-none">
+    <!-- Toast notifications are injected here by script.js -->
+  </div>
+
+  <!-- Main application script (deferred so DOM is ready) -->
+  <script src="script.js" defer></script>
+</body>
+</html>

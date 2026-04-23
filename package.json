@@ -1,0 +1,13 @@
+{
+  "name": "brand-review-sentiment-analyzer",
+  "version": "1.0.0",
+  "description": "Pure-frontend vanilla JS sentiment analyzer",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "fast-check": "^3.19.0"
+  }
+}
